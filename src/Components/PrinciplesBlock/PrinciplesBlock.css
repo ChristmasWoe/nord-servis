@@ -41,9 +41,19 @@
 }
 .linked-cards-block {
   display: flex;
-  width: 1248px;
-  height: 304px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
+  width: min-content;
+}
+
+.linked-card-span{
+  display: flex;
+  flex-direction: row;
+}
+
+.linked-card-span > svg{
+  margin-top: 18px;
+  margin-left: -100px;
+  z-index: 1;
 }
