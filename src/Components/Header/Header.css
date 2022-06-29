@@ -30,6 +30,7 @@
 }
 button.additional-content {
   margin-left: 25px;
+  cursor: pointer;
   border:none;
   background:transparent;
   width:50px;

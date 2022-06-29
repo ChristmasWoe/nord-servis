@@ -29,11 +29,14 @@
 }
 .main-info-img-block {
   margin-left: auto;
+  width: min-content;
+  margin-right: 20px;
 }
 .lower-pic {
   z-index: 0;
   width: 590px;
   height: 657px;
+  margin-left: 30px;
   border-radius: 10px 0px 0px 10px;
 }
 .upper-pic {
@@ -41,6 +44,6 @@
   width: 590px;
   height: 657px;
   border-radius: 10px 0px 0px 10px;
-  margin-top: 30px;
+  margin-top: -637px;
   margin-right: 30px;
 }

@@ -13,7 +13,7 @@ const MainInfo = () => {
       </div>
       <div className="main-info-img-block">
         <img className="lower-pic" src={'/picture.png'} />
-        {/* <img className="upper-pic" src={'/picture.png'} /> */}
+        <img className="upper-pic" src={'/picture.png'} />
       </div>
     </div>
   );

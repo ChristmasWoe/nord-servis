@@ -3,3 +3,8 @@ html, body, #root{
     height:100vh;
     margin:0;
 }
+
+@font-face {
+    font-family: "Inter";
+    src: url("../public/fonts/Inter-Regular.ttf");
+}
