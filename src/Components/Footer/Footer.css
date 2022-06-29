@@ -1,0 +1,51 @@
+.footer {
+  height: 96px;
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  padding-top: 32px;
+}
+.footer-email {
+  margin-top: 17px;
+  width: 189px;
+  height: 30px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: #676767;
+}
+.footer-logo-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+}
+.footer-logo {
+  width: 64px;
+  height: 64px;
+}
+.footer-main-title {
+  width: 223px;
+  height: 30px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+}
+.footer-telephone-number {
+  margin-top: 17px;
+  width: 208px;
+  height: 30px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: #676767;
+}

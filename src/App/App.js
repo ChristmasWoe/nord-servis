@@ -4,10 +4,11 @@ import MainInfo from '../Components/MainInfo/MainInfo';
 import PrinciplesBlock from '../Components/PrinciplesBlock/PrinciplesBlock';
 import StagesBlock from '../Components/StagesBlock/StagesBlock';
 import ServicesBlock from '../Components/ServicesBlock/ServicesBlock';
-import GassWellsBlock from '../Components/GassWellsBlock/GassWellsBlock';
+import GassWellsBlock from '../Components/RigsBlock/RigsBlock';
 import StructuresBlock from '../Components/StructuresBlock/StructuresBlock';
 import Footer from '../Components/Footer/Footer';
-import "./App.css"
+import './App.css';
+import RigsBlock from '../Components/RigsBlock/RigsBlock';
 
 const App = () => {
   return (
@@ -17,7 +18,7 @@ const App = () => {
       <PrinciplesBlock />
       <StagesBlock />
       <ServicesBlock />
-      <GassWellsBlock />
+      <RigsBlock />
       <StructuresBlock />
       <Footer />
     </div>

@@ -1,0 +1,23 @@
+.stages-block {
+  width: 100%;
+  margin-top: 100px;
+}
+.stages-block-title {
+  width: 562px;
+  height: 84px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+  margin-left: auto;
+  margin-right: auto;
+}
+.stages-cards-block {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 50px;
+}

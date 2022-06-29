@@ -43,23 +43,13 @@ const StagesBlock = () => {
       ],
     },
   ];
+  const renderedStagesCards = stagesCards.map((card) => {
+    return <StagesCard title={card.title} content={card.content} />;
+  });
   return (
     <div className="stages-block">
       <div className="stages-block-title">{title}</div>
-      <div className="stages-cards-block">
-        <StagesCard
-          title={stagesCards[0].title}
-          content={stagesCards[0].content}
-        />
-        <StagesCard
-          title={stagesCards[1].title}
-          content={stagesCards[1].content}
-        />
-        <StagesCard
-          title={stagesCards[2].title}
-          content={stagesCards[2].content}
-        />
-      </div>
+      <div className="stages-cards-block">{renderedStagesCards}</div>
     </div>
   );
 };

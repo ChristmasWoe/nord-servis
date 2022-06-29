@@ -1,11 +1,9 @@
-.services-block {
+.rigs-block {
   width: 100%;
   margin-top: 100px;
-  background: rgba(217, 217, 217, 0.5);
-  padding-top: 50px;
 }
-.services-block-title {
-  width: 562px;
+.rigs-title {
+  width: 736px;
   height: 84px;
   font-family: 'Inter';
   font-style: normal;
@@ -13,22 +11,24 @@
   font-size: 35px;
   line-height: 42px;
   text-align: center;
+  color: #000000;
   margin-left: auto;
   margin-right: auto;
-  color: #000000;
 }
-
-.services-block-content {
+.rigs-content-block {
   margin-top: 50px;
-  width: 1280px;
-  height: 261px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.rig {
+  width: 396px;
+  height: 72px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  line-height: 130%;
+  line-height: 36px;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
   color: #676767;
 }
