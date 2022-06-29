@@ -1,0 +1,48 @@
+.principles-block {
+  margin-top: 100px;
+  width: 100%;
+}
+.principles-block-title {
+  width: 366px;
+  height: 45px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 130%;
+  color: #000000;
+  margin-left: auto;
+  margin-right: auto;
+}
+.principle-cards-block {
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 94px;
+  width: 990px;
+  height: 353px;
+}
+.principle-card-box {
+  display: flex;
+}
+.principle-card-paragraph {
+  width: 1023px;
+  height: 156px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #676767;
+}
+.linked-cards-block {
+  display: flex;
+  width: 1248px;
+  height: 304px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}

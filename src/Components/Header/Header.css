@@ -1,0 +1,36 @@
+.header {
+  height: 175px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 80px;
+  margin-top: 30px;
+  margin-right: 80px;
+}
+.logo {
+  width: 64px;
+  height: 64px;
+}
+.main-title {
+  margin-top: 17px;
+  margin-left: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+}
+.telephone-number {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: #676767;
+  margin-left: auto;
+  margin-top: 18px;
+}
+.additional-content {
+  margin-right: 80px;
+  margin-left: 25px;
+}

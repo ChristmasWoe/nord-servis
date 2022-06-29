@@ -1,0 +1,19 @@
+.principle-card {
+  width: 460px;
+  height: 142px;
+  background: #ffffff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.11);
+  border-radius: 10px;
+}
+.principle-card-content {
+  width: 425px;
+  height: 96px;
+  margin-top: 15px;
+  margin-left: 15px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 130%;
+  color: #676767;
+}
