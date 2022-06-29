@@ -1,5 +1,5 @@
 .principles-block {
-  margin-top: 100px;
+  margin-top: 130px;
   width: 100%;
 }
 .principles-block-title {
@@ -15,12 +15,14 @@
   margin-right: auto;
 }
 .principle-cards-block {
-  flex-direction: row;
-  margin-left: auto;
-  margin-right: auto;
+  display:flex;
+  flex-wrap: wrap;
+  gap:70px;
+  padding-left: calc( (100% - 990px) /2);
+    padding-right: calc( (100% - 990px) /2);
+  /* margin-left: auto; */
+  /* margin-right: auto; */
   margin-top: 94px;
-  width: 990px;
-  height: 353px;
 }
 .principle-card-box {
   display: flex;
@@ -28,8 +30,7 @@
 .principle-card-paragraph {
   width: 1023px;
   height: 156px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 50px auto 50px auto;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;

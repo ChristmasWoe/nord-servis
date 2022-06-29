@@ -12,7 +12,7 @@ const MainInfo = () => {
         <div className="main-info-content">{mainInfoContent}</div>
       </div>
       <div className="main-info-img-block">
-        <img className="lower-pic" src={'/picture.png'} />
+        {/* <img className="lower-pic" src={'/picture.png'} /> */}
         <img className="upper-pic" src={'/picture.png'} />
       </div>
     </div>

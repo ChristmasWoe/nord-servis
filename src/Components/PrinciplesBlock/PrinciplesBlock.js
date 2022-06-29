@@ -27,7 +27,7 @@ const PrinciplesBlock = () => {
     <div className="principles-block">
       <div className="principles-block-title">{principlesBlockTitle}</div>
       <div className="principle-cards-block">
-        <div className="principle-card-box">
+        {/* <div className="principle-card-box"> */}
           {/*Пофиксить отступы*/}
           <PrincipleCard
             id={principleCardContent[0].id}
@@ -37,8 +37,8 @@ const PrinciplesBlock = () => {
             id={principleCardContent[1].id}
             content={principleCardContent[1].content}
           />
-        </div>
-        <div className="principle-card-box">
+        {/* </div> */}
+        {/* <div className="principle-card-box"> */}
           <PrincipleCard
             id={principleCardContent[2].id}
             content={principleCardContent[2].content}
@@ -47,7 +47,7 @@ const PrinciplesBlock = () => {
             id={principleCardContent[3].id}
             content={principleCardContent[3].content}
           />
-        </div>
+        {/* </div> */}
       </div>
       <p className="principle-card-paragraph">{paragraph}</p>
       <div className="linked-cards-block">
