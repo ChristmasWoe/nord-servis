@@ -8,8 +8,8 @@ const RigsBlock = () => {
     'Установки типа ZJ-30 грузоподъемностью 180т',
     'Установки типа ZJ-40 грузоподъемностью 225т',
   ];
-  const renderedRigs = content.map((rig) => {
-    return <div className="rig">{rig}</div>;
+  const renderedRigs = content.map((rig,i) => {
+    return <div key={i} className="rig">{rig}</div>;
   });
   return (
     <div className="rigs-block">

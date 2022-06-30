@@ -43,8 +43,8 @@ const StagesBlock = () => {
       ],
     },
   ];
-  const renderedStagesCards = stagesCards.map((card) => {
-    return <StagesCard title={card.title} content={card.content} />;
+  const renderedStagesCards = stagesCards.map((card,i) => {
+    return <StagesCard key={i} title={card.title} content={card.content} />;
   });
   return (
     <div className="stages-block">

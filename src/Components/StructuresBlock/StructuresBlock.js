@@ -25,14 +25,14 @@ const StructuresBlock = () => {
       'Супервайзер по закачиванию скважин',
     ],
   ];
-  const renderedHlContent = highlightedContent.map((hlLine) => {
-    return <div className="highlighted-line">{hlLine}</div>;
+  const renderedHlContent = highlightedContent.map((hlLine,i) => {
+    return <div key={"highlighted-line"+i} className="highlighted-line">{hlLine}</div>;
   });
-  const renderedColumns = structuresContent.map((column) => {
-    const renderedStructuresLines = column.map((line) => {
-      return <div className="structures-line">{line}</div>;
+  const renderedColumns = structuresContent.map((column,i) => {
+    const renderedStructuresLines = column.map((line,j) => {
+      return <div key={"structures-line"+j} className="structures-line">{line}</div>;
     });
-    return <div className="structures-column">{renderedStructuresLines}</div>;
+    return  <div key={"structures-column"+i} className="structures-column">{renderedStructuresLines}</div>;
   });
 
   return (
