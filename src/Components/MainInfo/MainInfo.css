@@ -30,13 +30,13 @@
 .main-info-img-block {
   margin-left: auto;
   width: min-content;
-  margin-right: 20px;
+  /* margin-right: 20px; */
 }
 .lower-pic {
   z-index: 0;
   width: 590px;
   height: 657px;
-  margin-left: 30px;
+  /* margin-left: 30px; */
   border-radius: 10px 0px 0px 10px;
 }
 .upper-pic {
