@@ -1,14 +1,20 @@
 .main-info {
+  max-width: 1822px;
   margin-left: 80px;
   margin-top: 117px;
   display: flex;
   flex-direction: row;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+}
+
 .main-info-title {
   width: 730px;
   height: 142px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 55px;
@@ -19,7 +25,7 @@
 .main-info-content {
   width: 730px;
   height: 225px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 35px;

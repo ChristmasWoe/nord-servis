@@ -1,0 +1,59 @@
+.presentaion-block {
+  width: 100%;
+  margin-top: 100px;
+  background: rgba(217, 217, 217, 0.5);
+  padding-top: 50px;
+}
+.presentaion-block-title {
+  width: 562px;
+  height: 84px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000000;
+}
+
+.presentaion-block-content {
+  margin-top: 50px;
+  width: 1280px;
+  height: 261px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 130%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #676767;
+}
+
+.presentaion-cards {
+  display: flex;
+  justify-content: center;
+  gap: 180px;
+  margin-top: 50px;
+}
+
+.presentation-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  color: #676767;
+
+  cursor: pointer;
+}
+
+.pdfLogo {
+  width: 120px;
+}
