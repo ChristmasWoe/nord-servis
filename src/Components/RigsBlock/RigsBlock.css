@@ -5,7 +5,7 @@
 .rigs-title {
   width: 736px;
   height: 84px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
@@ -24,11 +24,53 @@
 .rig {
   width: 396px;
   height: 72px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
   color: #676767;
+}
+
+@media (min-width: 521px) and (max-width: 899px) {
+  .rigs-title {
+    font-size: 24px;
+    line-height: 22px;
+    width: fit-content;
+  }
+  .rigs-block {
+    margin-top: 0;
+  }
+  .rig {
+    font-size: 18px;
+    line-height: normal;
+    height: fit-content;
+  }
+  .rigs-content-block {
+    margin-top: 0;
+    gap: 30px;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 520px) {
+  .rigs-title {
+    font-size: 22px;
+    line-height: 22px;
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 10px;
+  }
+  .rigs-block {
+    margin-top: 50px;
+  }
+  .rig {
+    font-size: 14px;
+    line-height: normal;
+    height: fit-content;
+  }
+  .rigs-content-block {
+    margin-top: 30px;
+    gap: 5px;
+  }
 }

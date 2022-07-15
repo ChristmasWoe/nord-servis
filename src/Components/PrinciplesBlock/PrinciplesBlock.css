@@ -5,7 +5,7 @@
 .principles-block-title {
   width: 366px;
   height: 45px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
@@ -15,11 +15,11 @@
   margin-right: auto;
 }
 .principle-cards-block {
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
-  gap:70px;
-  padding-left: calc( (100% - 990px) /2);
-    padding-right: calc( (100% - 990px) /2);
+  gap: 70px;
+  padding-left: calc((100% - 990px) / 2);
+  padding-right: calc((100% - 990px) / 2);
   /* margin-left: auto; */
   /* margin-right: auto; */
   margin-top: 94px;
@@ -31,7 +31,7 @@
   width: 1023px;
   height: 156px;
   margin: 50px auto 50px auto;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -47,13 +47,85 @@
   width: min-content;
 }
 
-.linked-card-span{
+.linked-card-span {
   display: flex;
   flex-direction: row;
 }
 
-.linked-card-span > svg{
+.linked-card-span > svg {
   margin-top: 18px;
   margin-left: -100px;
   z-index: 1;
+}
+
+@media (min-width: 521px) and (max-width: 899px) {
+  .principles-block {
+    margin-top: 40px;
+  }
+  .principles-block-title {
+    font-size: 24px;
+    width: fit-content;
+  }
+
+  .principle-cards-block {
+    gap: 20px;
+    margin-top: 10px;
+    justify-content: center;
+  }
+  .principle-card-paragraph {
+    font-size: 19px;
+    line-height: 24px;
+    width: 100%;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+  .linked-cards-block {
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .linked-card-span svg {
+    display: none;
+  }
+  .linked-card-span {
+    margin-top: 10px !important;
+    border: 1px solid #10b8f6;
+    border-radius: 5px;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 520px) {
+  .principles-block {
+    margin-top: 40px;
+  }
+  .principles-block-title {
+    font-size: 22px;
+    width: fit-content;
+  }
+  .principle-cards-block {
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+  }
+  .principle-card-paragraph {
+    font-size: 16px;
+    line-height: 22px;
+    width: 100%;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+  .linked-cards-block {
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .linked-card-span svg {
+    display: none;
+  }
+  .linked-card-span {
+    margin-top: 10px !important;
+    border: 1px solid #10b8f6;
+    border-radius: 5px;
+  }
 }

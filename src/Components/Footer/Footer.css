@@ -8,9 +8,9 @@
 }
 .footer-email {
   margin-top: 17px;
-  width: 189px;
-  height: 30px;
-  font-family: 'Inter';
+  width: 215px;
+  height: 40px;
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
@@ -31,7 +31,7 @@
   width: 223px;
   height: 30px;
 
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
@@ -42,10 +42,46 @@
   margin-top: 17px;
   width: 208px;
   height: 30px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
   line-height: 30px;
   color: #676767;
+}
+
+@media (min-width: 521px) and (max-width: 899px) {
+  .footer-email {
+    font-size: 20px;
+  }
+  .footer-logo {
+    width: 32px;
+    height: 32px;
+  }
+  .footer-main-title {
+    font-size: 18px;
+  }
+  .footer {
+    justify-content: center;
+    gap: 0;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 520px) {
+  .footer-email {
+    font-size: 16px;
+    width: fit-content;
+  }
+  .footer-logo {
+    width: 32px;
+    height: 32px;
+  }
+  .footer-main-title {
+    font-size: 16px;
+    width: fit-content;
+  }
+  .footer {
+    justify-content: center;
+    gap: 0;
+  }
 }

@@ -8,8 +8,8 @@ const Header = () => {
     <div className="header">
       <img className="logo" src={"/logo.png"} />
       <div className="main-title">{mainTitle}</div>
-      <div className="telephone-number">{telephoneNumber}</div>
-      <button className="additional-content">
+      {/* <div className="telephone-number">{telephoneNumber}</div> */}
+      {/* <button className="additional-content">
         <svg
           width="50"
           height="28"
@@ -60,7 +60,7 @@ const Header = () => {
             </filter>
           </defs>
         </svg>
-      </button>
+      </button> */}
     </div>
   );
 };

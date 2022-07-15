@@ -7,7 +7,7 @@
 .structures-block-title {
   width: 687px;
   height: 84px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
@@ -26,7 +26,7 @@
 .highlighted-line {
   width: 396px;
   height: 36px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -48,11 +48,66 @@
 }
 .structures-line {
   margin-top: 25px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
   color: #676767;
+}
+
+@media (min-width: 521px) and (max-width: 899px) {
+  .structures-block {
+    margin-top: 0;
+  }
+  .structures-block-title {
+    font-size: 24px;
+    line-height: 22px;
+    width: fit-content;
+  }
+  .highlighted-content-block {
+    margin-top: 0;
+  }
+  .highlighted-line {
+    height: fit-content;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .structures-content-block {
+    margin-top: 0;
+  }
+  .structures-line {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 520px) {
+  .structures-block {
+    margin-top: 0;
+  }
+  .structures-block-title {
+    font-size: 22px;
+    line-height: 22px;
+    width: fit-content;
+  }
+  .highlighted-content-block {
+    margin-top: 0;
+    gap: 8px;
+  }
+  .highlighted-line {
+    height: fit-content;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .structures-content-block {
+    margin-top: 0;
+    gap: 10px;
+    padding-bottom: 20px;
+  }
+  .structures-line {
+    font-size: 16px;
+    line-height: 20px;
+  }
 }

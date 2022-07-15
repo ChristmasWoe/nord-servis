@@ -56,6 +56,7 @@ const PrinciplesBlock = () => {
             style={{ marginTop: `${61 * i}px` }}
             className="linked-card-span"
             key={i}
+            id={100 + i}
           >
             <LinkedCard content={v.content} />
             {i != linkedCardContent.length - 1 && <Arrow />}

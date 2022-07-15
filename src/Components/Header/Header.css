@@ -12,7 +12,7 @@
 }
 .main-title {
   margin-left: 10px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
@@ -20,7 +20,7 @@
   color: #000000;
 }
 .telephone-number {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
@@ -31,10 +31,33 @@
 button.additional-content {
   margin-left: 25px;
   cursor: pointer;
-  border:none;
-  background:transparent;
-  width:50px;
-  height:28px;
-  padding:0;
-  outline:none;
+  border: none;
+  background: transparent;
+  width: 50px;
+  height: 28px;
+  padding: 0;
+  outline: none;
+}
+
+@media (min-width: 521px) and (max-width: 390px) {
+  .logo {
+    height: 32px;
+    width: 32px;
+  }
+  .main-title {
+    font-size: 20px;
+  }
+  .header {
+    height: 32px;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 520px) {
+  .logo {
+    width: 30px;
+    height: 30px;
+  }
+  .main-title {
+    font-size: 22px;
+  }
 }

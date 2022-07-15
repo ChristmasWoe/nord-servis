@@ -9,7 +9,7 @@
   margin-top: 15px;
   width: 308px;
   height: 24px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -26,10 +26,40 @@
 }
 .stages-card-line {
   margin-top: 25px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 130%;
   color: #000000;
+}
+
+@media (min-width: 521px) and (max-width: 899px) {
+  .stages-card-title {
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .stages-card {
+    width: 33%;
+    height: fit-content;
+  }
+  .stages-card-line {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 520px) {
+  .stages-card-title {
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .stages-card {
+    width: 33%;
+    height: fit-content;
+  }
+  .stages-card-line {
+    font-size: 12px;
+  }
 }

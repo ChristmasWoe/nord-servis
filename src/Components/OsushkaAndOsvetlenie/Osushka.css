@@ -1,12 +1,12 @@
-.services-block {
+.osushka-block {
   width: 100%;
   margin-top: 100px;
   background: rgba(217, 217, 217, 0.5);
   padding-top: 50px;
 }
-.services-block-title {
+.osushka-block-title {
   width: 562px;
-  height: 84px;
+  height: 44px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -18,10 +18,10 @@
   color: #000000;
 }
 
-.services-block-content {
+.osushka-block-content {
   margin-top: 50px;
   width: 1280px;
-  height: 261px;
+  height: 61px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -34,33 +34,32 @@
 }
 
 @media (min-width: 521px) and (max-width: 899px) {
-  .services-block-title {
+  .osushka-block {
+    margin-top: 0;
+    padding-top: 40px;
+  }
+  .osushka-block-title {
     font-size: 24px;
   }
-  .services-block {
-    margin-top: 20px;
-  }
-  .services-block-content {
-    width: fit-content;
+  .osushka-block-content {
     margin-top: 10px;
-    font-size: 18px;
+    width: fit-content;
+    font-size: 20px;
   }
 }
 
 @media (min-width: 280px) and (max-width: 520px) {
-  .services-block-title {
+  .osushka-block {
+    margin-top: 0;
+    padding-top: 20px;
+  }
+  .osushka-block-title {
     font-size: 22px;
     width: fit-content;
-    line-height: 22px;
-    height: fit-content;
   }
-  .services-block {
-    margin-top: 20px;
-    height: fit-content;
-  }
-  .services-block-content {
+  .osushka-block-content {
+    margin-top: 10px;
     width: fit-content;
-    margin-top: 20px;
     font-size: 18px;
     height: fit-content;
   }

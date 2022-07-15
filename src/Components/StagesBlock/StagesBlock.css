@@ -5,7 +5,7 @@
 .stages-block-title {
   width: 562px;
   height: 84px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
@@ -20,4 +20,29 @@
   justify-content: center;
   gap: 40px;
   margin-top: 50px;
+}
+
+@media (min-width: 521px) and (max-width: 899px) {
+  .stages-block-title {
+    font-size: 24px;
+    line-height: 22px;
+  }
+  .stages-cards-block {
+    gap: 5px;
+    height: fit-content;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 520px) {
+  .stages-block-title {
+    font-size: 20px;
+    line-height: 20px;
+    width: fit-content;
+    height: fit-content;
+  }
+  .stages-cards-block {
+    margin-top: 20px;
+    gap: 2px;
+    height: fit-content;
+  }
 }
